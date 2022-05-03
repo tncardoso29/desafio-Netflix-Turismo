@@ -1,0 +1,51 @@
+:root {
+    --azul:lightblue;
+    --azul2:blue;
+    --preto:black;
+}
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Elementos Base */
+body {
+    background-color: var(--azul);
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header .container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .Logo {
+    margin-left: 30px;
+    color:var(--azul2);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color:red;
+    font-weight: bold;
+}
+
+/* Destino Principal */
+.destino-principal {
+    font-size: 20px;
+    background: url('../img/tororomba-resort-001_20200604171835.jpg');
+    height: 1000px;
+    background-size: cover;
+}
