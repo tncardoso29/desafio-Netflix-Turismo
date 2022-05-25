@@ -1,5 +1,5 @@
 <p align="center">
-	<a href="#"> <img src="desafio-Netflix-Turismo/img/dio.png" height="40" align="center" alt="Digital Innovation One"></a>
+	<a href="#"> <img src="/img/dio.png" height="60" align="center" alt="Digital Innovation One"></a>
     <h2 align="center"> VIAGEM-FLIX - Recriando a Interface do Netflix </h2>
 	<p> Um projeto baseado no desafio de recriar a interface do Netflix! </p>
 </p>
@@ -27,4 +27,4 @@ O Meu muito obrigado, caso você tenha chego até aqui.
 
 Me siga nas minhas redes abaixo!!
 
-<a href="https://www.instagram.com/thiagocardoso.design" target="_blank"><img src="desafio-Netflix-Turismo/img/Insta.png" alt="Meu Instagram" height="50px" /></a> <a href="https://www.linkedin.com/in/tncardoso-31" target="_blank"><img src="desafio-Netflix-Turismo/img/linkedin.png" alt="Meu Perfil Profissional" height="50px" /></a>
+<a href="https://www.instagram.com/thiagocardoso.design" target="_blank"><img src="/img/Insta.png" alt="Meu Instagram" height="50px" /></a> <a href="https://www.linkedin.com/in/tncardoso-31" target="_blank"><img src="/img/linkedin.png" alt="Meu Perfil Profissional" height="50px" /></a>
