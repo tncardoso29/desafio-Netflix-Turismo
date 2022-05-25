@@ -47,7 +47,7 @@ header nav a:hover {
     font-size: 20px;
     background: url('../img/tororomba-resort-001_20200604171835.jpg');
     
-    height: 1000px;
+    height: 670px;
     background-size: cover;
 
     display:flex;
@@ -59,11 +59,13 @@ header nav a:hover {
 .destino-principal .descricao {
     margin-bottom: 25px;
     margin-top: 40px;
+    text-shadow: black 2px 2px;
 }
 
 .titulo {
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: black 2px 2px;
 }
 
 .botao {
@@ -83,4 +85,46 @@ header nav a:hover {
     background-color: white;
     color:brown;
     font-weight: bold;
+}
+
+.botao i {
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.container img {
+    height: 60px;
+    width: 60px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.box-viagens {
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.form-control {
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin-top:10px;
+    height: 30px;
+}
+
+footer {
+    background-color: mediumslateblue;
+    margin-top: 40px;
+    font-family: Arial, Helvetica;
+    font-size:15px;
 }

@@ -3,33 +3,47 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, inicial-scale=1.0">
-        <title> NETFLIX TURISMO 2022 </title>
-        <link href="style/main.css" rel="stylesheet" type="text/css">
+        <title> VIAGEM-FLIX 2022 </title>
+
+        <!-- Alguns CSS's -->
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+        <link rel="stylesheet" href="style/responsive.css">
         <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- Fim dos CSS's -->
+
     </head>
     <body>
         
-        <!-- dsadsad -->
+        <!-- Div Container -->
         <header>
             <div class="container">
-                <h2 class="Logo">NETFLIX TURISMO</h2>
+                <h2 class="Logo">VIAGEM-FLIX</h2>
                 <nav>
                     <a href="#">Início</a>
                     <a href="#">Resorts</a>
                     <a href="#">Hotéis</a>
                     <a href="#">Promoção</a>
                 </nav>
+
+               
+                    <input class="form-control form-control-lg" type="text" placeholder="Pesquisa" aria-label=".form-control-lg example">
+                  
+
             </div>
         </header>
-        <!-- dsadad -->
+        <!-- Final da Div Container -->
 
-        <!-- dsadasd -->
+        <!-- Div "Display" Inicial / Principal -->
         <main>
             <div class="destino-principal">
                 <div class="container">
+                    <img src="img/good-review.png">
                     <h3 class="titulo">RESORT TOROROMBA - Ilheus, Bahia</h3>
                     <p class="descricao">
                         Hotel pé na areia, situado numa área de 50.000 m2, na praia de Cana Brava... </p>
+                    
                     <button role="button" class="botao">
                         <span class="material-symbols-outlined">  zoom_in </span>
                         MAIS INFORMAÇÕES
@@ -39,10 +53,59 @@
                         <span class="material-symbols-outlined"> find_in_page </span>
                         DESTINOS PARECIDOS
                     </button>
+
+                    <button role="button" class="botao">
+                        <i class="fa-solid fa-box"></i>
+                        PACOTES DE VIAGENS
+                    </button>
+
                 </div>
             </div>
         </main>
-        <!-- dsadasd -->
+        <!-- Final da Div "Display" -->
 
+        <!-- Div Carrosel de Imagens -->
+        <div class="carrosel-viagens">
+            <div class="ow-carousel owl-theme">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <a href="#"><img src="img/233833371.jpg" class="box-viagens" alt="Pousada Do Marques em Balneário Camboriú, Santa Catarina"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="img/3_recife_pe_001__1_.webp" class="box-viagens" alt="Pacote de Viagem - Recife + João Pessoa - 2023"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="img/chapada14.jpg" class="box-viagens" alt="Pacote de Viagem - Praia dos Carneiros - 2023"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="img/Marina_de_Dubai.jpg" class="box-viagens" alt="Pacote de Viagem - Dubai - 2024"></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="img/1_shutterstock_1352043356.webp" class="box-viagens" alt="Pacote de Viagem - Chapada dos Veadeiros - 2022"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final da Div Carrosel -->
+
+        <!-- -->
+        <div class="Destinos-Populares">
+
+        </div>
+        <!-- -->
+
+        <!-- Div Rodapé do Site -->
+        <footer>
+            <h2>VIAGEM-FLIX</h2>
+            <h4>Viagem-Flix 2022 - Desenvolvido por Thiago Cardoso</h4>
+        </footer>
+        <!-- Final do Rodapé -->
+
+        <!-- JavaScript -->
+        <script src="https://kit.fontawesome.com/bd08684a2a.js" crossorigin="anonymous"></script>
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+        <!-- Final do JavaScript -->
     </body>
 </html>
